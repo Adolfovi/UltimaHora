@@ -3,12 +3,105 @@
 ======================*/
 
 header{
-   
+   background-color: #cd0000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   align-content: center;
+   flex-wrap: nowrap;
+   flex-direction: row;
 }
 
+
 main{
-   
+   background-color: white;
 }
+
+/* CSS incrustado por Adolfo */
+
+#header-logo{
+    background-color: #cd0000;
+    font-family: Fantasy;
+    font-size: 50px;
+    color: white;
+    padding: 2vh;
+}
+
+#sessions{
+    display: flex;
+    background-color: #cd0000;
+    padding: 10px 10px 10px 10px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#sessions > button{
+        font-family: Arial;
+        display: flex;
+        margin-right: 10px;
+        background-color: white;
+        border: 0;
+        padding: 5px;
+        border-radius: 5px;
+}
+
+
+#login-image{
+    width: 20px;
+    padding-left: 10px;
+}
+
+#block-slider{
+    background-color: #cd0000;
+    margin-left: 5%;
+    padding: 5px;
+}
+#block-slider > img{
+    width: 60px;
+}
+
+#menu-nav{
+    background-color: #dddddd;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.nav-block{
+    font-family: sans-serif;
+    margin: 5px;
+    font-weight: bolder;
+}
+
+.nav-block > img{
+    width: 20px;
+}
+
+#main-ad{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /*====================
 ========Columns=======

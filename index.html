@@ -1,34 +1,66 @@
 <!doctype html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="https://www.youtube.com/s/desktop/12d6b690/img/favicon.ico">
 
-		<title>Título</title>
-		<meta name="description" content="descripción de la web, se recomienda 90 caracteres">
-        <meta name="keywords" 	 content="palabras clave, separadas, por comas">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://www.youtube.com/s/desktop/12d6b690/img/favicon.ico">
 
-        <link href="style/normalize.css" rel="stylesheet">
-        <link href="style/main.css" rel="stylesheet">
-    </head>
-    
-    <body>
-        <header>
-        
-        </header>
+    <title>Última Hora</title>
+    <meta name="description" content="descripción de la web, se recomienda 90 caracteres">
+    <meta name="keywords" content="palabras clave, separadas, por comas">
 
-        <main>
-            
-        </main>
-     
-        <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script>
-            WebFont.load({
-                google: {
-                    families: ['Roboto Condensed', 'Roboto']
-                }
-            });        
-        </script>
-    </body>
+    <link href="style/normalize.css" rel="stylesheet">
+    <link href="style/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="block-slider">
+            <img src="img/slider.png">
+        </div>
+        <div id="header-logo">Ultima Hora</div>
+        <div id="sessions">
+            <button>
+                <div id="login">
+                    Iniciar sesión
+                </div>
+                <div id="div-login-image">
+                    <img id="login-image" src="img/login.png">
+                </div>
+            </button>
+            <button>
+                <div id="register">Regístrate</div>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div id="menu-nav">
+            <div class="nav-block"><img src="img/house.png"></div>
+            <div class="nav-block">NOTICIAS</div>
+            <div class="nav-block">SUCESOS</div>
+            <div class="nav-block">DEPORTES</div>
+            <div class="nav-block">OPINIÓN</div>
+            <div class="nav-block">XALOC</div>
+            <div class="nav-block">PARTICIPA</div>
+            <div class="nav-block">OCIO</div>
+            <div class="nav-block">VIPS</div>
+            <div class="nav-block">GUÍA ÚTIL</div>
+            <div class="nav-block">MONOGRÁFICOS</div>
+            <div class="nav-block"><img src="img/lupa.png"></div>
+        </div>
+        <div id="main-ad"><img src="img/ucrania-ad.jpg"></div>
+    </main>
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Roboto Condensed', 'Roboto']
+            }
+        });        
+    </script>
+</body>
+
 </html>
