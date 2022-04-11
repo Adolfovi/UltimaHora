@@ -121,6 +121,19 @@ img {
 
 /* Código incrustado por Adolfo */
 
+.only-inline{
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.only-spaced{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .header-top{
     width: 100%;
     padding: 10px;
@@ -257,11 +270,8 @@ img {
     position: relative;
 }
 
-
-.news-category{
-    color: #cd0000;
-    font-family: Arial;
-    font-weight: bolder;
+.news{
+    background-color: white;
 }
 
 .news-title{
@@ -271,6 +281,13 @@ img {
     margin-bottom: 5px;
     font-size: 40px;
 }
+
+.news-category{
+    color: #cd0000;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
 
 .news-description{
     font-family: Arial;
@@ -286,15 +303,37 @@ img {
     width: 100%;
 }
 
-.only-inline{
-    display: flex;
-    flex-direction: row;
-
-
-
+.news-dark{
+    background-color: #2b2b2b;
 }
 
-.only-spaced{
-    margin-left: 5px;
-    margin-right: 5px;
+.news-title-dark{
+    font-family: Arial;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-size: 40px;
 }
+
+.news-category-dark{
+    color: #9b9b9b;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+
+.news-description-dark{
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.news-author-dark{
+    font-family: Arial;
+    font-weight: bolder;
+    color: #7c7c7c;
+}
+
+.news-image-dark{
+    width: 100%;
+}
+
