@@ -182,13 +182,32 @@ img {
     position: relative;
     right: 10px;
 }
+.login > button{
+    font-family: Arial;
+    padding: 5px;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
 
 .register{
     position: relative;
     right: 5px;
-
+    padding: 5px;
 }
 
+
+.register > button{
+    font-family: Arial;
+    padding: 5px;
+    background-color: #ffc700;
+    border: 0;
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: bolder;
+}
+    
 .header-menu{
     display: flex;
     align-items: center;
@@ -199,7 +218,7 @@ img {
     background-color: #e6e6e6;
     width: 100%;
     padding: 15px;
-    border: 2px solid black;
+    border-bottom: 2px solid #b3b3b3;
     
 }
 
@@ -229,4 +248,10 @@ img {
     left: 40px;
     
 
+}
+
+
+.header-main-sessions-login-image{
+    width: 15px;
+    position: relative;
 }
