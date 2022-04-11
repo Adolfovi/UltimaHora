@@ -41,7 +41,7 @@ main{
 
 .desktop-two-columns-aside{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -55,7 +55,7 @@ main{
 
 .desktop-two-columns-inline{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -70,7 +70,7 @@ main{
 
 .desktop-three-columns{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -80,7 +80,7 @@ main{
 
 .desktop-four-columns{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -129,12 +129,13 @@ img {
 }
 
 .header-top-editions{
-    display: flex;
     justify-content: flex-end;
     position: relative;
     right: 40px;
     font-size: 15px;
     font-family: Arial;
+    display: flex;
+    flex-direction: row;
 }
 
 .header-top-featured-news{
@@ -254,4 +255,46 @@ img {
 .header-main-sessions-login-image{
     width: 15px;
     position: relative;
+}
+
+
+.news-category{
+    color: #cd0000;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+.news-title{
+    font-family: Arial;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.news-description{
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.news-author{
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+.news-image{
+    width: 100%;
+}
+
+.only-inline{
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.only-spaced{
+    margin-left: 5px;
+    margin-right: 5px;
 }
