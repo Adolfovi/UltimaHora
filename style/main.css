@@ -268,20 +268,20 @@ background-color: #cd0000;
 
 .news-category span{
     color: #cd0000;
-    font-family: Arial;
+    font-family: Roboto;
     font-weight: bolder;
 }
 .news-title span{
-    font-family: Arial;
+    font-family: Roboto;
     font-size: 1.2rem;
     font-weight: bolder;
 }
 .news-description span{
-    font-family: Arial;
+    font-family: Roboto;
     font-size: 1rem;
 }
 .news-author span{
-    font-family: Arial;
+    font-family: Roboto;
 }
 
 
