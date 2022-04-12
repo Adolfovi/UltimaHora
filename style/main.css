@@ -2,14 +2,10 @@
 =======Structure======
 ======================*/
 
-header{
-
-}
+header{}
 
 
-main{
-
-}
+main{}
 
 /*====================
 ========Columns=======
@@ -122,9 +118,7 @@ img {
     font-family: Arial;
 }
 
-.header-top-featured-news{
-
-}
+.header-top-featured-news{}
 
 .header-top-featured-news ul{
     list-style-type: none;    
