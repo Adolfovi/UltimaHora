@@ -261,6 +261,11 @@ background-color: #cd0000;
 .news-image{
     width: 100%;
 }
+
+.news-image img{
+    width: 100%;
+}
+
 .news-category span{
     color: #cd0000;
     font-family: Arial;
