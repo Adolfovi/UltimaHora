@@ -247,7 +247,9 @@ background-color: #cd0000;
     display: flex;
     justify-content: center;
 }
-.banner-ad{}
+.banner-ad{
+    margin: 0 0.3rem 0.4rem 0.3rem;
+}
 
 /*====================
 ======News============
