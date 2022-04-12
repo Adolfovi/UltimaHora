@@ -3,18 +3,12 @@
 ======================*/
 
 header{
-   background-color: #cd0000;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   align-content: center;
-   flex-wrap: nowrap;
-   flex-direction: column;
+
 }
 
 
 main{
-   background-color: white;
+
 }
 
 /*====================
@@ -119,247 +113,174 @@ img {
 }
 
 
-/* Código incrustado por Adolfo */
+/*====================
+========Header=========
+======================*/
 
-/* Configuración de la caja que contendrá el anuncio principal de la página web */
-.main-ad{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-
-/* Clase especial para colocar solamente objetos en línea */
-.only-inline{
-    display: flex;
-    flex-direction: row;
-
-
-
-}
-/* Clase especial para añadir solo espaciado en los lados */
-.only-spaced{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-
-/* Configuración de la cabecera superior */
 .header-top{
-    width: 100%;
-    padding: 10px;
     background-color: #e6e6e6;
-    font-size: 10px;
+    font-family: Arial;
 }
 
-/* Configuración del apartado de ediciones que hay en la cabecera superior */
-.header-top-editions{
-    justify-content: flex-end;
-    position: relative;
-    right: 40px;
-    font-size: 15px;
-    font-family: Arial;
-    display: flex;
-    flex-direction: row;
-}
-/* Configuración del apartado de noticias destacadas que hay en la cabecera superior */
 .header-top-featured-news{
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    left: 20px;
+
+}
+
+.header-top-featured-news ul{
+    list-style-type: none;    
+    margin-top: 4px;
+}
+
+.header-top-featured-news ul li{
+    font-size: 0.9rem;
+    padding-left: 20px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.header-top-featured-news ul li span{
+
     font-family: Arial;
-    font-size: 15px;
+    font-weight: bolder;
+
+
 }
-/* Configuración del tamaño del icono de lupa */
-.lens{
-        width: 20px;
-}
-/* Configuración de la cabecera principal */
-.header-main{
-    width: 100%;
-    padding: 30px;
+
+.header-top-editions{
+    padding: 10px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    align-items: center;
     align-content: center;
     justify-content: center;
-    align-items: center;
-
+    flex-wrap: nowrap;
 }
-/* Configuración del logo que hay en la cabecera principal */
+
+.header-top-editions ul{
+    list-style-type: none;
+}
+
+.header-top-editions ul li{
+    float: right;
+    padding-left: 30px;
+    font-size: 0.9rem;
+}
+
+
+
+.header-main{
+background-color: #cd0000;
+}
+
 .header-main-logo{
-    color: white;
-    font-family: Impact;
-    font-size: 50px;
-
+    margin-top: 15px;
 }
-/* Configuración del apartado de sesión del usuario que hay en la cabecera principal */
+
+.header-main-menu-button{
+    width: 100px;
+}
+
 .header-main-sessions{
     display: flex;
-    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: flex-end;
-}
-/* Configuración de la posición del botón de login  */
-.login{
-    position: relative;
-    right: 10px;
-}
-/* Configuración del boton que hay dentro del div llamado login */
-.login > button{
-    font-family: Arial;
-    padding: 5px;
-    background-color: white;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 2px 3px 4px black;
-}
-
-/* Configuración de la posición y margen interno del bloque que contiene el boton de registro */
-.register{
-    position: relative;
-    right: 5px;
-    padding: 5px;
-}
-
-/* Configuración del botón que hay dentro del div llamado register */
-.register > button{
-    font-family: Arial;
-    padding: 5px;
-    background-color: #ffc700;
-    border: 0;
-    border-radius: 5px;
-    font-style: italic;
-    font-weight: bolder;
-    cursor: pointer;
-    box-shadow: 2px 3px 4px black;
-}
-    /* Configuración del menu de navegación que hay dentro de la cabecera */
-.header-menu{
-    display: flex;
     align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
+    margin-top: 15  px;
+}
+
+.header-main-sessions .login button{
+    margin: 20px;
     background-color: #e6e6e6;
-    width: 100%;
-    padding: 15px;
-    border-bottom: 2px solid #b3b3b3;
-    
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
 }
-/* Configuración del estilo de cada uno de las opciones del menu de navegación */
-.header-menu-block{
-    margin-right: 20px;
+
+.header-main-sessions .login button span{
     font-family: Arial;
-    font-weight: bolder;
-
-}
-/* Configuración del icono de casa */
-.house{
-    width: 15px;
-    margin-right: 20px;
-}
-/* Configuración del icono de "hamburguesa" */
-.slider{
-    width: 40px;
-}
-/* Configuración de la caja que contiene el icono de "hamburguesa" */
-.header-main-menu-button{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    position: relative;
-    left: 40px;
-    
-
 }
 
-/* Configuración de la caja que contiene el icono de inicio de sesión 
-que hay dentro del botón de Inicio de Sesión */
-.header-main-sessions-login-image{
-    width: 15px;
-    position: relative;
+.header-main-sessions .register button span{
+    font-family: Arial;
 }
-/* Configuración de la caja que contendrá toda una noticia */
-.news{
+
+.header-main-sessions .register button{
+    margin: 20px;
     background-color: white;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-/* Configuración de titulo de la noticia */
-.news-title{
-    font-family: Arial;
-    color: black;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffc700;
     font-weight: bolder;
-    margin-bottom: 5px;
-    font-size: 25px;
+    font-style: italic;
 }
-/* Configuración de categoría de la noticia */
-.news-category{
+
+.header-main-sessions-login-image{
+    width: 20px;
+    vertical-align: middle;
+    margin-top: -4px;
+
+}
+
+.header-menu{
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu-block{
+    margin: 10px 10px 5px 10px;
+}
+
+.header-menu-block .home{
+    width: 15px;
+}
+
+.header-menu-block .lens{
+    width: 15px;
+}
+
+/*====================
+========Ads==========
+======================*/
+
+.main-ad{}
+.banner-ad{}
+
+/*====================
+======News============
+======================*/
+
+.news{
+    margin: 0 10px 20px 10px;
+}
+.news-image{}
+.news-category span{
     color: #cd0000;
     font-family: Arial;
     font-weight: bolder;
 }
-
-/* Configuración de descripción de la noticia */
-.news-description{
+.news-title span{
     font-family: Arial;
-    font-size: 20px;
-}
-/* Configuración de autor de la noticia */
-.news-author{
-    font-family: Arial;
+    font-size: 1.2rem;
     font-weight: bolder;
 }
-/* Configuración de imagen de la noticia */
-.news-image{
-    width: 100%;
+.news-description span{
+    font-family: Arial;
+    font-size: 1rem;
+}
+.news-author span{
+    font-family: Arial;
 }
 
-/* Configuración de la caja que contendrá una noticia en versión oscuro */
-.news-dark{
-    background-color: #2b2b2b;
-}
-/* Configuración de titulo de noticia en versión oscuro */
-.news-title-dark{
-    font-family: Arial;
-    color: white;
-    font-weight: bolder;
-    margin-bottom: 5px;
-    font-size: 25px;
-}
-/* Configuración de la categoria de noticia en versión oscuro */
-.news-category-dark{
-    color: #9b9b9b;
-    font-family: Arial;
-    font-weight: bolder;
-}
 
-/* Configuración de descripción de la noticia en versión oscuro */
-.news-description-dark{
-    font-family: Arial;
-    font-size: 20px;
-}
-/* Configuración de autor de la noticia en versión oscuro */
-.news-author-dark{
-    font-family: Arial;
-    font-weight: bolder;
-    color: #7c7c7c;
-}
-/* Configuración de imagen de la noticia en versión oscuro */
-.news-image-dark{
-    width: 100%;
-}
-/* COnfiguración de la etiqueta que coloca negrita en un texto */
-b{
-    margin-right: 10px;
-}
+
+
+
+
