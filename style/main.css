@@ -173,7 +173,7 @@ background-color: #cd0000;
     align-content: center;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 15  px;
+    margin-top: 2rem;
 }
 
 .header-main-sessions .login button{
@@ -242,7 +242,10 @@ background-color: #cd0000;
 ========Ads==========
 ======================*/
 
-.main-ad{}
+.main-ad{
+    display: flex;
+    justify-content: center;
+}
 .banner-ad{}
 
 /*====================
