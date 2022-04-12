@@ -31,7 +31,7 @@ main{}
 
 .desktop-two-columns-aside{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -45,7 +45,7 @@ main{}
 
 .desktop-two-columns-inline{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -60,7 +60,7 @@ main{}
 
 .desktop-three-columns{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -70,7 +70,7 @@ main{}
 
 .desktop-four-columns{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
