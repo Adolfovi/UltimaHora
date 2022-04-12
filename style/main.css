@@ -121,6 +121,16 @@ img {
 
 /* Código incrustado por Adolfo */
 
+/* Configuración de la caja que contendrá el anuncio principal de la página web */
+.main-ad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
 /* Clase especial para colocar solamente objetos en línea */
 .only-inline{
     display: flex;
