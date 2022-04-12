@@ -231,6 +231,7 @@ background-color: #cd0000;
 .header-menu-block span{
     margin: 10px 10px 5px 10px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .header-menu-block .home{
@@ -285,9 +286,3 @@ background-color: #cd0000;
 .news-author span{
     font-family: Roboto;
 }
-
-
-
-
-
-
