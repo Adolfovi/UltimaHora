@@ -226,10 +226,19 @@ background-color: #cd0000;
     align-content: center;
     justify-content: center;
     align-items: center;
+    border-bottom: 4px solid #cccccc;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .header-menu-block{
     margin: 10px 10px 5px 10px;
+}
+
+.header-menu-block span{
+    margin: 10px 10px 5px 10px;
+    font-family: Arial;
+    font-weight: bolder;
 }
 
 .header-menu-block .home{
