@@ -202,6 +202,8 @@ img {
     background-color: white;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px black;
 }
 
 
@@ -220,6 +222,8 @@ img {
     border-radius: 5px;
     font-style: italic;
     font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px black;
 }
     
 .header-menu{
