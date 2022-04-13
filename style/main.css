@@ -275,15 +275,16 @@ img {
     font-family: Roboto;
     font-weight: bolder;
 }
-.news-title span{
-    font-family: Roboto;
-    font-size: 1.2rem;
-    font-weight: bolder;
+
+.news-description p{
+    margin: 0.3rem 0;
+
 }
-.news-description span{
-    font-family: Roboto;
-    font-size: 1rem;
+
+.news-author{
+    margin: 0.5rem 0;
 }
-.news-author span{
-    font-family: Roboto;
+
+.news-title{
+    margin: 0.3rem 0;
 }
