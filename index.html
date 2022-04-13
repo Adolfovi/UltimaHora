@@ -10,6 +10,7 @@
     <meta name="keywords" content="palabras clave, separadas, por comas">
     <link href="style/normalize.css" rel="stylesheet">
     <link href="style/main.css" rel="stylesheet">
+    <link href="style/responsive.css" rel="stylesheet">
 </head>
 
 <body>
@@ -44,11 +45,9 @@
             <div class="desktop-three-columns">
                 <div class="column">
                     <div class="header-main-menu-button">
-                        <div class="slider">
-                            <svg viewBox="0 0 24 24">
-                                <path fill="white" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
-                            </svg>
-                        </div>
+                        <svg viewBox="0 0 24 24">
+                            <path fill="white" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+                        </svg>
                     </div>
                 </div>
                 <div class="column">
@@ -65,7 +64,7 @@
                         <div class="login">
                             <button>
                                 <span>Iniciar sesión </span>
-                                <svg class="header-main-sessions-login-image" viewBox="0 0 1000 1000">
+                                <svg viewBox="0 0 1000 1000">
                                     <g>
                                         <path
                                             d="M783.7,755.3c0,12.9-10.3,25.8-25.8,25.8c-12.9,0-25.8-10.3-25.8-25.8v-2.6v-2.6c-15.5-113.5-113.5-196-229.5-196H500h-2.6c-116.1,0-211.5,82.5-229.5,193.4c0,2.6,0,5.2,0,7.7v2.6c0,15.5-12.9,25.8-25.8,25.8c-12.9,0-25.8-12.9-25.8-25.8l0,0l0,0v-2.6c0-2.6,0-5.2,0-5.2c12.9-103.2,82.5-188.3,177.9-224.4c-54.2-36.1-90.3-98-90.3-167.6c0-110.9,85.1-198.6,196-198.6c110.9,0,196,90.3,196,198.6c0,72.2-36.1,134.1-90.3,167.6c92.8,36.1,162.5,118.6,177.9,221.8C783.7,747.6,783.7,750.2,783.7,755.3L783.7,755.3z M649.6,355.6c0-82.5-67.1-149.6-149.6-149.6s-149.6,67.1-149.6,149.6c0,82.5,67.1,149.6,149.6,149.6S649.6,438.1,649.6,355.6z" />
@@ -118,7 +117,6 @@
     </header>
 
     <main>
-
         <div class="main-ad">
             <img src="img/ucrania-ad.jpg">
         </div>
@@ -145,6 +143,43 @@
                         <span>Urko Urbieta</span>
                     </div>
                 </div>
+
+                <div class="desktop-two-columns">
+                    <div class="column">
+                        <div class="news">
+                            <div>
+                                <img class="news-image" src="img/2.png">
+                            </div>
+                            <div class="news-category">
+                                <span>SUCESOS</span>
+                            </div>
+                            <div class="news-title">
+                                <span>Varios detenidos y tres policias heridos en otro fin de semana
+                                    salvaje en Son Valentí</span>
+                            </div>
+                            <div class="news-author">
+                                <span>Julio Bastida</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div>
+                                <img class="news-image" src="img/3.png">
+                            </div>
+                            <div class="news-category">
+                                <span>LOCAL</span>
+                            </div>
+                            <div class="news-title">
+                                <span>El autor del libro que provocó fuertes protestas en la UIB llama
+                                    "cobarde" al rector</span>
+                            </div>
+                            <div class="news-author">
+                                <span>Nekane Domblás</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="column-aside">
@@ -155,138 +190,115 @@
         </div>
 
         <div class="desktop-two-columns-aside">
-            <div class="column-main">
-                <div class="news">
-                    <div>
-                        <img class="news-image" src="img/2.png">
-                    </div>
-                    <div class="news-category">
-                        <span>SUCESOS</span>
-                    </div>
-                    <div class="news-title">
-                        <span>Varios detenidos y tres policias heridos en otro fin de semana
-                            salvaje en Son Valentí</span>
-                    </div>
-                    <div class="news-author">
-                        <span>Julio Bastida</span>
-                    </div>
-                </div>
-            </div>
+
             <div class="column-aside">
-                <div class="news">
-                    <div>
-                        <img class="news-image" src="img/3.png">
-                    </div>
-                    <div class="news-category">
-                        <span>LOCAL</span>
-                    </div>
-                    <div class="news-title">
-                        <span>El autor del libro que provocó fuertes protestas en la UIB llama
-                            "cobarde" al rector</span>
-                    </div>
-                    <div class="news-author">
-                        <span>Nekane Domblás</span>
-                    </div>
+                <div class="banner-ad">
+                    <img src="img/ciber-monday.png">
                 </div>
             </div>
 
-
-        </div>
-
-        <div class="desktop-three-columns">
-            <div class="column">
-                <div class="news">
-                    <div>
-                        <img src="img/4.png" class="news-image">
+            <div class="column-main">
+                <div class="desktop-three-columns">
+                    <div class="column">
+                        <div class="news">
+                            <div>
+                                <img src="img/4.png" class="news-image">
+                            </div>
+                            <div class="news-category">
+                                <span>LOCAL</span>
+                            </div>
+                            <div class="news-title">
+                                <span>Crisis política: Més per Menorca
+                                    da por roto el pacto de gobierno en el
+                                    Consell</span>
+                            </div>
+                            <div class="news-description">
+                                <span>La suspensión del pleno
+                                    en el que debía aprobarse la Ley de Reserva de
+                                    la Biosfera rompe las relaciones entre Més y el PSOE</span>
+                            </div>
+                            <div class="news-author"><span>Redacción Menorca</span></div>
+                        </div>
+        
                     </div>
-                    <div class="news-category">
-                        <span>LOCAL</span>
+                    <div class="column">
+                        <div class="news">
+                            <div>
+                                <img src="img/5.png" class="news-image">
+                            </div>
+                            <div class="news-category">
+                                <span>PALMA</span>
+                            </div>
+                            <div class="news-title">
+                                <span>El 60% de las comunidades de vecinos
+                                    no presenta la evaluación de sus
+                                    edificios</span>
+                            </div>
+                            <div class="news-author"><span>Javier Rodríguez</span></div>
+                        </div>
+        
                     </div>
-                    <div class="news-title">
-                        <span>Crisis política: Més per Menorca
-                            da por roto el pacto de gobierno en el
-                            Consell</span>
-                    </div>
-                    <div class="news-description">
-                        <span>La suspensión del pleno
-                            en el que debía aprobarse la Ley de Reserva de
-                            la Biosfera rompe las relaciones entre Més y el PSOE</span>
-                    </div>
-                    <div class="news-author"><span>Redacción Menorca</span></div>
-                </div>
-
-            </div>
-            <div class="column">
-                <div class="news">
-                    <div>
-                        <img src="img/5.png" class="news-image">
-                    </div>
-                    <div class="news-category">
-                        <span>PALMA</span>
-                    </div>
-                    <div class="news-title">
-                        <span>El 60% de las comunidades de vecinos
-                            no presenta la evaluación de sus
-                            edificios</span>
-                    </div>
-                    <div class="news-author"><span>Javier Rodríguez</span></div>
-                </div>
-
-            </div>
-            <div class="column">
-                <div class="news">
-                    <div>
-                        <img src="img/9.png" class="news-image">
-                    </div>
-                    <div class="news-category">
-                        <span>BRANDED CONTENT</span>
-                    </div>
-                    <div class="news-title">
-                        <span>Una oportunidad para trabajar
-                            en el Hotel El Vicenç de la Mar 5* en el
-                            norte de la isla</span>
-                    </div>
-                    <div class="news-author"><span>Redacción Especiales</span></div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="desktop-two-columns">
-            <div class="column">
-                <div class="news">
-                    <div class="news-image">
-                        <img src="img/7.png">
-                    </div>
-                    <div class="news-category">
-                        <span>GUERRA RUSIA-UCRANIA</span>
-                    </div>
-                    <div class="news-title">
-                        <span>Fulgencio Coll: "La guerra durará hasta que Putin consiga
-                            objetivos mínimos para negociar"
-                        </span>
-                    </div>
-                    <div class="news-author">
-                        <span>Javier Jiménez</span>
+                    <div class="column">
+                        <div class="news">
+                            <div>
+                                <img src="img/9.png" class="news-image">
+                            </div>
+                            <div class="news-category">
+                                <span>BRANDED CONTENT</span>
+                            </div>
+                            <div class="news-title">
+                                <span>Una oportunidad para trabajar
+                                    en el Hotel El Vicenç de la Mar 5* en el
+                                    norte de la isla</span>
+                            </div>
+                            <div class="news-author"><span>Redacción Especiales</span></div>
+                        </div>
+        
                     </div>
                 </div>
-            </div>
-            <div class="column">
-                <div class="news">
-                    <div>
-                        <img src="img/8.png" class="news-image">
+
+                <div class="desktop-two-columns">
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <img src="img/7.png">
+                            </div>
+                            <div class="news-category">
+                                <span>GUERRA RUSIA-UCRANIA</span>
+                            </div>
+                            <div class="news-title">
+                                <span>Fulgencio Coll: "La guerra durará hasta que Putin consiga
+                                    objetivos mínimos para negociar"
+                                </span>
+                            </div>
+                            <div class="news-author">
+                                <span>Javier Jiménez</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="news-category">
-                        <span>SEMANA SANTA 2022</span>
+                    <div class="column">
+                        <div class="news">
+                            <div>
+                                <img src="img/8.png" class="news-image">
+                            </div>
+                            <div class="news-category">
+                                <span>SEMANA SANTA 2022</span>
+                            </div>
+                            <div class="news-title">
+                                <span>La procesión de ramos congrega a mucho público</span>
+                            </div>
+                            <div class="news-author">
+                            <span>Amalia Estabén</span>
+                        </div>
                     </div>
-                    <div class="news-title">
-                        <span>La procesión de ramos congrega a mucho público</span>
-                    </div>
-                    <div class="news-author">
-                    <span>Amalia Estabén</span>
                 </div>
             </div>
         </div>
+
+
+        
+
+       
 
     </main>
 
