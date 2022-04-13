@@ -283,7 +283,11 @@ img {
 
 .news-author{
     margin: 0.5rem 0;
+}
+
+.news-author span{
     color: #626262;
+    font-weight: 600;
 }
 
 .news-title{
