@@ -293,3 +293,24 @@ img {
 .news-title{
     margin: 0.3rem 0;
 }
+
+.featured-news{
+    background-color: #cd0000;
+    padding: 0.5rem;
+}
+
+.featured-title h2{
+    color: white;
+}
+
+.featured-category span{
+    color: #ff8585;
+}
+
+.featured-description p{
+    color: white;
+}
+
+.featured-author span{
+    color: white;
+}
