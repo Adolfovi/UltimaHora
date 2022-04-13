@@ -38,11 +38,11 @@
 }
 
 .header-main-logo{
-    margin-top: 2.3rem;
+    margin-top: 0.5rem;
 }
 
 .header-main-menu-button{
-    margin-top: 1.4rem;
+    margin-top: 0;
 
 }
 
@@ -71,6 +71,10 @@
     align-items: center;
 }
 
+.header-main-sessions{
+    margin-top: 4rem;
+}
+
 .header-main-sessions .login{
     width: 100%;
     margin-left: 0;
@@ -94,6 +98,8 @@
 
 .desktop-two-columns-aside .column-aside{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .desktop-two-columns .column{
